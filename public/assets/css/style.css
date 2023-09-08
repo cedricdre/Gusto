@@ -1,6 +1,10 @@
 body {
     font-family: 'Montserrat', sans-serif;
+<<<<<<< HEAD
     margin: 0;
+=======
+    font-family: 'Open Sans', sans-serif;
+>>>>>>> galerie
 }
 /* Style Navbar */
 
@@ -16,6 +20,7 @@ body {
 
 /* Style venir chez nous */
 
+<<<<<<< HEAD
 #venir {
     background-color: black;
     padding: 2em;
@@ -38,6 +43,8 @@ body {
     margin: 0;
 }
 
+=======
+>>>>>>> galerie
 
 /* Style Formulaire */
 

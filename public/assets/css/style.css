@@ -1,36 +1,28 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin:0;
 }
 /* Style Navbar */
 
-
 /* Style header présentation */
-
-
 /* Style A propos */
-
-
 /* Style galerie */
-
-
 /* Style venir chez nous */
-
-
 /* Style Formulaire */
-
-
 /* Style A propos */
-
-
 /* Style Footer */
 #reservation {
     background-color: red;
+    width: 100 vh;
+    height: 110 vh;
     height: 100vh;
-    
+
 ;
 }
 
+#form{
+    width: ;
 .formcss{
     width: 70%;
     text-align: center;
@@ -46,6 +38,7 @@ body {
 
 #legals{
     text-align: center;
+}
 }
 
 #reservation h2{

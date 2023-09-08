@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 /* Style Navbar */
 
@@ -15,6 +15,28 @@ body {
 
 
 /* Style venir chez nous */
+
+#venir {
+    background-color: black;
+    padding: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+#venir h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.5em;
+}
+#venir .text-bold {
+    font-weight: 800;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    margin: 0;
+}
 
 
 /* Style Formulaire */

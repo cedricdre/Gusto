@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="./public/assets/css/style.css">
 </head>
 <body>
+
         <!-- header -->
         <header>
+
         </header>
         <!-- FIN header -->
         <!-- main -->
@@ -20,27 +22,60 @@
         <!-- FIN main -->
         <!-- footer -->
         <footer>
+            <!--id unique pour sous titre -->
             <section id="reservation">
             <h2>Réservation</h2>
-            <form class="form" method="" action=""></form>
+            <!-- fermeture id -->
+            <!-- creation div pour mise en forme du formulaire -->
             <div class="formcss">
-            <form method="" action=""></form>
+            <!-- formulaire debut -->
+                <form method="" action="">
+                <!-- debut listing formulaire -->
+                
+                <div class="form-button">
+                    <label for="numberpeople">Nombre de personnes :</label>
+                    <input type="text"name="numberpeople"id="numberpeople" placeholder="Combien êtes vous?">
+                </div>
 
-                <ul>
-                <li><label for="numberpeople">Nombre de personnes :</label>
-@@ -42,8 +43,8 @@ <h2>Réservation</h2>
-                <li><label for="firstname">Prénom :</label>
-                <input type="text"name="firstname" id="firstname" placeholder="Ton prénom"></li>
-                </ul>
+                <div class="form-button">
+                    <label for="date">Date :</label>
+                    <input type="text"name="date" id="date" placeholder="ex:lundi 12 juillet">
+                </div>
 
-                <button class="">Envoyer</button>
+                <div class="form-button">
+                    <label for="hours">Horaire :</label>
+                    <input type="text" name="hours" id="hours" placeholder="ex:15h00">
+                </div>
+
+                <div class="form-button">
+                    <label for="name">Nom :</label>
+                    <input type="text"name="name" id="name" placeholder="Ton nom de famille">
+                </div>
+
+                <div class="form-button">
+                    <label for="firstname">Prénom :</label>
+                    <input type="text"name="firstname" id="firstname" placeholder="Ton prénom">
+                </div>
+                
+                <div class="form-button">
+                    <label for="phone">Numero de télephone :</label>
+                    <input type="text"name="phone" id="phone" placeholder="Ton numéro">
+                </div>
+                
+            <!-- fermeture div -->
             </div>
+            <!-- ajout button et class -->
                 <button class="send1">Envoyer</button>
+            </form>
+            <!-- fin section reservation -->
             </section>
 
+            <!-- début section copyright -->
             <section id="legals">
-                <p>Copyright 2023 PIZZERIA © GUSTO ART <a href="">mention légales</a></p>
+                <p>Copyright © 2023 PIZZERIA  GUSTO ART <a href="">mention légales</a></p>
+                <!-- avec incorporation d'un lien pour rendre clicquable -->
             </section>
+            <!-- fin section copyright -->
         </footer>
         <!-- FIN footer -->
     

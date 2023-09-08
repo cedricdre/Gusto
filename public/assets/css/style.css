@@ -24,3 +24,17 @@ body {
 
 
 /* Style Footer */
+#reservation {
+    background-color: red;
+    width: 100 vh;
+    height: 110 vh;
+}
+
+#form{
+    width: ;
+    text-align: center;
+}
+
+#legals{
+    text-align: center;
+}

@@ -10,34 +10,69 @@ body {
 
 /* Style A propos */
 
+#propo h2 {
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 0;
+}
+#propo .titre{
+    width: 100%;
+    color: white;
+}
+#propo .propos{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #900000;
+    padding: 3em;
+}
+#propo .text_propos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 40%;
+}
+#propo .image_propos{
+    width: 40%;
+    height: 400px;
+    margin-left: 3em;
+}
+#propo .image_propos img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 50px;
+}
+
 
 /* Style galerie */
-<<<<<<< HEAD
-h2{
-    font-family: 'Montserrat', sans-serif;
+#plat h2{
     font-weight: 800;
     font-size: 2.5em;
     text-align: center;
 }
-.item{
+#plat .item{
     width: 300px;
     height: 250px;
     margin: 15px;
     overflow: hidden;
     flex-shrink: 0;
 }
-.item img{
+#plat .item img{
     width: 100%;
     height: 100%;
     object-fit:cover;
 }
-.section_galerie{
+#plat .section_galerie{
     display: flex;
     justify-content: center;
     height: 100%;
     width: 100%;
 }
-.galerie{
+#plat .galerie{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -69,54 +104,11 @@ h2{
     height: 300px;
     margin: 0;
 }
-=======
 
 
 /* Style venir chez nous */
 
->>>>>>> a_propos
 
 /* Style Formulaire */
-
-
-/* Style A propos */
-
-h2{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    font-size: 2.5em;
-    text-align: center;
-}
-.titre{
-    text-align: center;
-    width: 100%;
-    color: white;
-}
-.propos{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-color: #900000;
-    width: 100%;
-}
-.text_propos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    width: 30%;
-    margin: 50px; 
-}
-.image_propos{
-    height: 450px;
-    overflow: hidden;
-    border-radius: 10%;
-}
-.image_propos img{
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
-}
 
 /* Style Footer */

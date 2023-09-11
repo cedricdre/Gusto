@@ -182,6 +182,7 @@ header .overlay {
     width: 100%;
     height: 300px;
     margin: 0;
+    margin-bottom: -20px;
 }
 
 /* Style Footer */

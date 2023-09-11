@@ -58,9 +58,10 @@ nav ul li a:hover {
 /* Style header présentation */
 .header-img {
     margin-top: 15px;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     background:url("../img/photo-header.jpeg");
+    background-size: cover;
 }
 h1, h3 {
     text-align: center;

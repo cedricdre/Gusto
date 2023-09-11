@@ -45,17 +45,16 @@ header nav ul li a:hover {
     color: #900000;
     transition: all 0.75s ease-out;
 }
-header button {
+header .btn-nav {
     background-color: #900000;
     color: white;
-    border-radius: 20px;
-    border: #900000;
+    border-radius: 2em;
     width: auto;
     font-weight: 800;
     padding: 0.5em 1em;
     font-size: 1em;
 }
-header button:hover {
+header .btn-nav:hover {
     background-color: black;
     transition: all 0.75s ease-out;
 }

@@ -184,15 +184,87 @@ header .overlay {
     margin: 0;
 }
 
-
-
-
-
-
-
-/* Style Formulaire */
-
-
-
-
 /* Style Footer */
+#reservation {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #900000;
+    width: 100%;
+    height: 40%;
+    padding-bottom:40px;
+    padding-top: 30px;;
+}
+
+#form{
+    width: 100% ;
+} 
+
+.formcss{
+    width: 40%;
+    text-align:start;
+    background-color:white;
+    border-radius: 30px;
+    padding: 50px;
+    color: black;
+    font-weight:bold ;
+    margin:20px auto;
+    
+}
+
+
+#legals{
+    text-align: center;
+    background-color:white
+}
+
+
+#reservation h2{
+    margin: 0;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+.send1 {
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border-radius: 30px;
+    margin:0 auto;
+    width: 8%;
+    font-weight: bolder;
+
+}
+
+footer button{
+    cursor: pointer;
+    width: 100px;
+}
+
+div.form-button{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 35px;
+}
+
+footer input
+{
+    width: 330px;
+    background-color: #d9d9d9;
+    
+}
+
+footer label{
+    width: 200px;
+    padding: 0 20px;
+}
+
+section button {
+    background-color: #d9d9d9;
+    font-weight: bold;
+}
+

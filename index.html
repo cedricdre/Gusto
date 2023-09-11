@@ -80,13 +80,58 @@
 <!-- FIN main -->
 <!-- footer -->
 <footer>
-
-
-
-
+    <!-- debut conteneur parent -->
+    <section id="reservation">
+    <h2>Réservation</h2>
+    <!-- ajout conteneur enfant -->
+    <div class="formcss">
+    <!-- formulaire debut -->
+        <form method="get" action=""> 
+            <!-- debut listing formulaire -->
+            <!-- premier ligne + champ de saisie -->
+        <div class="form-button">
+            <label for="numberpeople">Nombre de personnes :</label>
+            <input type="text" name="numberpeople" id="numberpeople" placeholder="Combien êtes vous?">
+        </div>
+            <!-- deuxieme ligne + champ de saisie -->
+        <div class="form-button">
+            <label for="date">Date :</label>
+            <input type="text" name="date" id="date" placeholder="ex:lundi 12 juillet">
+        </div>
+            <!-- troisieme ligne + champ de saisie -->
+        <div class="form-button">
+            <label for="hours">Horaire :</label>
+            <input type="text" name="hours" id="hours" placeholder="ex:15h00">
+        </div>
+            <!-- quatrieme ligne + champ de saisie -->
+        <div class="form-button">
+            <label for="name">Nom :</label>
+            <input type="text" name="name" id="name" placeholder="Ton nom de famille">
+        </div>
+            <!-- cinquieme ligne + champ de saisie -->
+        <div class="form-button">
+            <label for="firstname">Prénom :</label>
+            <input type="text" name="firstname" id="firstname" placeholder="Ton prénom">
+        </div>
+            <!-- sixieme ligne + champ de saisie -->
+        <div class="form-button">
+            <label for="phone">Numero de télephone :</label>
+            <input type="text" name="phone" id="phone" placeholder="Ton numéro de télephone">
+        <!-- fermeture conteneur enfant -->
+        </div>
     
+    </div>
+        <!-- ajout button envoyer avec class pour css -->
+        <input class="send1" type="submit" value="Envoyer">
+        </form> <!-- fin du formulaire-->
+    </section>
 
+    <!-- début section copyright -->
+    <section id="legals" >
+        <p>Copyright © 2023 PIZZERIA  GUSTO ART <a href="">mention légales</a></p>
+        <!-- avec incorporation d'un lien pour rendre clicquable -->
+    </section>
+    <!-- fin section copyright -->
 </footer>
-<!-- FIN footer -->
 </body>
 </html>

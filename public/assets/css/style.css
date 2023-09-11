@@ -3,6 +3,82 @@ body {
     margin: 0;
 }
 /* Style Navbar */
+header nav img {
+    height: 70px;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2 {
+    color: black;
+    font-size: medium;
+    font-weight: 800;
+    margin: 5px;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+}
+header nav {
+    align-items: end;
+}
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+header button {
+    background-color: #900000;
+    color: white;
+    border-radius: 20px;
+    border: #900000;
+    width: auto;
+    height: 25px;
+    align-items: end;
+    font-size: 16px;
+}
+header .reservation {
+    padding-left: end;
+}
+header button:hover {
+    background-color: black;
+    transition: all 0.75s ease-out;
+}
+header nav ul li a:hover {
+    color: #900000;
+    transition: all 0.75s ease-out;
+}
+/* Style header présentation */
+header .header-img {
+    margin-top: 15px;
+    height: 80vh;
+    width: 100%;
+    background:url("../img/photo-header.jpeg");
+}
+header h1, h3 {
+    text-align: center;
+    color: white;
+    justify-content: center;
+    margin: 0;
+}
+header .overlay {    
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
 
 
 /* Style header présentation */
@@ -112,9 +188,14 @@ body {
 }
 
 
-/* Style venir chez nous */
+
+
+
 
 
 /* Style Formulaire */
+
+
+
 
 /* Style Footer */
